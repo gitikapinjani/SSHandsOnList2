@@ -1,3 +1,13 @@
+/*
+======================================================================================== 
+Name: 3.c
+Author: Gitika Pinjani
+Description: Write a program to set (any one) system resource limit. Use setrlimit system call.
+Date: 12th Sept, 2024
+=========================================================================================
+*/
+
+
 #include <err.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -22,3 +32,14 @@ int main()
                   (intmax_t) old.rlim_cur, (intmax_t) old.rlim_max);
 
 }
+
+/*
+output: 
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ cc 3.c
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+Previous limits: soft=-1; hard=-1
+New limits: soft=16777216; hard=33554432
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ 
+
+*/
