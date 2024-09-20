@@ -22,3 +22,12 @@ printf("enter message:");
 scanf("%[^\n]",msg);
 printf("message from shared memory : %s\n", msg);
 }
+
+/*
+output:
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+enter message:hello gitika
+Segmentation fault (core dumped)
+
+*/

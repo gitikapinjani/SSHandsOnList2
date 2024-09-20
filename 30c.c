@@ -24,3 +24,14 @@ getchar();
 shmdt(msg);
 printf("pointer detach from shared memory\n");
 }
+
+/*
+output:
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+shared memory attached
+press enter to detach shared memory
+
+pointer detach from shared memory
+
+*/

@@ -22,3 +22,12 @@ printf("enter message:");
 scanf("%[^\n]",data);
 printf("message from shared memory : %s\n", data);
 }
+
+/*
+output:
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+enter message:hello, gitika
+message from shared memory : hello, gitika
+
+*/

@@ -24,3 +24,14 @@ getchar();
 shmctl(key, IPC_RMID, NULL);
 printf("deleted shared memory\n");
 }
+
+/*
+output:
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+shared memory attached
+press enter to delete shared memory
+
+deleted shared memory
+
+*/
