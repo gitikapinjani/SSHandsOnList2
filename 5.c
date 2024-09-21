@@ -22,7 +22,7 @@ Date: 12th Sept, 2024
 int main(){
 
 long systemConfig = sysconf(_SC_ARG_MAX);
-printf("maximum length of arguments %ll",systemConfig);
+printf("maximum length of arguments %ld",systemConfig);
 
     systemConfig = sysconf(_SC_CHILD_MAX);
     printf("Maximum number of simultaneous process per user id -%ld\n", systemConfig);
@@ -57,3 +57,4 @@ Number of  currently available pages in the physical memory -2878225
 gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ 
 
 */
+

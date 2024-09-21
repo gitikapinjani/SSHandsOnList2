@@ -1,3 +1,13 @@
+/*
+======================================================================================== 
+Name: 19a.c
+Author: Gitika Pinjani
+Description: Create a FIFO file by
+b. mkfifo command
+Date: 21st Sept, 2024
+=========================================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

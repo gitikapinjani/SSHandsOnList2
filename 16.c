@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : 16.c
+Author : Gitika Pinjani
+Description :Write a program to send and receive data from parent to child vice versa. Use two way
+communication.
+Date: 21st Sept, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -39,3 +49,12 @@ int main() {
 
     return 0;
 }
+
+/*
+output:
+
+gitikapinjani@gitikapinjani-Victus-by-HP-Gaming-Laptop-15-fa0xxx:~/HandsOnList2-SS$ ./a.out
+Child received: Message from parent!
+Parent received: Message from child!
+
+*/
