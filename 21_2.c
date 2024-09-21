@@ -1,3 +1,11 @@
+/*
+============================================================================
+Name : 21_2.c
+Author : Gitika Pinjani
+Description : 21. Write two programs so that both can communicate by FIFO -Use two way communications.
+Date: 21st Sept, 2024.
+============================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,7 +21,7 @@ int main() {
     mkfifo("myfifo21_2", 0666);
 
     int read_fd = open("myfifo21_1", O_RDONLY);
-    int write_fd = open("myfifo21_1", O_WRONLY);
+    int write_fd = open("myfifo21_2", O_WRONLY);
 
     while (1) {
         read(read_fd, buffer, sizeof(buffer));

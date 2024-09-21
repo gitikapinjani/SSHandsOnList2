@@ -1,3 +1,14 @@
+/*
+======================================================================================== 
+Name: 19d.c
+Author: Gitika Pinjani
+Description: Create a FIFO file by
+d. mknod system call
+Date: 21st Sept, 2024
+=========================================================================================
+*/
+
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
